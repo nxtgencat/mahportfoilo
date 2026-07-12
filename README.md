@@ -1,32 +1,35 @@
-# React + TypeScript + Vite
+# Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Personal portfolio website built with React, TypeScript, Vite, and Tailwind CSS.
 
-Currently, two official plugins are available:
+## Project Structure
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
-
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+```text
+src/
+  components/    // Navbar, Footer, ProjectCard
+  pages/         // Home, About, Projects, ProjectDetail, Gallery, Contact
+  data/          // Static content, projects, gallery tiles
+  types/         // TypeScript type definitions
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+- **components/** — Reusable UI pieces used across pages.
+- **pages/** — One file per page, rendered conditionally based on nav state.
+- **data/** — All text content, project data, and gallery data separated from UI.
+- **types/** — Shared interfaces for Project, GalleryTile, Page, etc.
+
+## What It Does
+
+- Single-page app with client-side page switching via React state.
+- Home page with hero, about summary, recent projects, and contact prompt.
+- About page with portrait, bio (lime-highlighted key phrases), and social links.
+- Projects page listing all projects; clicking opens a detail view.
+- Gallery page using CSS masonry layout.
+- Contact page with a form that shows a success message on submit.
+- All text content driven from a single data file (no hardcoded strings in components).
+
+## Run
+
+```bash
+pnpm install
+pnpm dev
+```
