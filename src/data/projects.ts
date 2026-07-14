@@ -12,7 +12,7 @@ export const projects: Project[] = [
     category: 'Frontend',
     desc: "This project is a portfolio website developed using React.js. The website is designed to showcase the user's skills, projects, and services. It features a modern and clean design with smooth navigation and responsive layout.",
     cardDesc: 'Developed to showcase my skills in web development, my portfolio website exemplifies proficiency in technologies such as ReactJS, CSS, and Figma.',
-    thumb: 'https://placehold.co/700x460/1c2b06/d7ff3d?text=Mahanthi+Portfolio',
+    thumb: 'https://placehold.net/3.png',
     features: defaultFeatures
   },
   {
@@ -21,7 +21,7 @@ export const projects: Project[] = [
     category: 'Fulll Stack',
     desc: 'Developed a full-stack weather app using NodeJS/Express for server-side logic and ReactJS/Handlebars for interactive frontend, delivering real-time weather data.',
     cardDesc: 'Developed a full-stack weather app using NodeJS/Express for server-side logic and ReactJS/Handlebars for interactive frontend, delivering real-time weather data.',
-    thumb: 'https://placehold.co/700x460/1e3a5f/ffffff?text=Weather+App',
+    thumb: 'https://placehold.net/4.png',
     features: defaultFeatures
   },
   {
@@ -30,7 +30,7 @@ export const projects: Project[] = [
     category: 'Frontend',
     desc: 'Crafted a responsive CRED Landing Page clone using ReactJS for modularity and interactivity, styled with CSS to match the original design.',
     cardDesc: 'Crafted a responsive CRED Landing Page clone using ReactJS for modularity and interactivity, styled with CSS to match the original design.',
-    thumb: 'https://placehold.co/700x460/2b1854/ffffff?text=CRED+Clone',
+    thumb: 'https://placehold.net/5.png',
     features: defaultFeatures
   },
   {
@@ -39,7 +39,7 @@ export const projects: Project[] = [
     category: 'Full Stack',
     desc: 'Crafted a responsive CRED Landing Page clone using ReactJS for modularity and interactivity, styled with CSS to match the original design.',
     cardDesc: 'Crafted a responsive CRED Landing Page clone using ReactJS for modularity and interactivity, styled with CSS to match the original design.',
-    thumb: 'https://placehold.co/700x460/0f766e/ffffff?text=Metrohm+Login',
+    thumb: 'https://placehold.net/6.png',
     features: defaultFeatures
   },
   {
@@ -48,7 +48,7 @@ export const projects: Project[] = [
     category: 'Frontend',
     desc: 'Crafted a responsive CRED Landing Page clone using ReactJS for modularity and interactivity, styled with CSS to match the original design.',
     cardDesc: 'Crafted a responsive CRED Landing Page clone using ReactJS for modularity and interactivity, styled with CSS to match the original design.',
-    thumb: 'https://placehold.co/700x460/7c2d12/ffffff?text=Work+In+Progress',
+    thumb: 'https://placehold.net/7.png',
     features: defaultFeatures
   },
   {
@@ -57,7 +57,7 @@ export const projects: Project[] = [
     category: 'Frontend',
     desc: 'Crafted a responsive CRED Landing Page clone using ReactJS for modularity and interactivity, styled with CSS to match the original design.',
     cardDesc: 'Crafted a responsive CRED Landing Page clone using ReactJS for modularity and interactivity, styled with CSS to match the original design.',
-    thumb: 'https://placehold.co/700x460/1e1b6e/ffffff?text=QR+Scanner',
+    thumb: 'https://placehold.net/8.png',
     features: defaultFeatures
   },
   {
@@ -66,7 +66,7 @@ export const projects: Project[] = [
     category: 'Frontend',
     desc: 'Crafted a responsive CRED Landing Page clone using ReactJS for modularity and interactivity, styled with CSS to match the original design.',
     cardDesc: 'Crafted a responsive CRED Landing Page clone using ReactJS for modularity and interactivity, styled with CSS to match the original design.',
-    thumb: 'https://placehold.co/700x460/0a0a0a/1db954?text=Playlist+Generator',
+    thumb: 'https://placehold.net/9.png',
     features: defaultFeatures
   }
 ];

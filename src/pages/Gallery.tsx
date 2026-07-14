@@ -13,7 +13,7 @@ export default function Gallery() {
         {galleryTiles.map((g, i) => (
           <div key={i} className="rounded-xl overflow-hidden">
             <img
-              src={`https://placehold.co/400x${g.h}/${g.c}/${g.t}?text=${encodeURIComponent(g.label)}`}
+              src={g.src}
               className="w-full h-auto block"
               alt={g.label}
             />

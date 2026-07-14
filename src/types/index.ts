@@ -14,10 +14,8 @@ export interface Project {
 }
 
 export interface GalleryTile {
-  c: string;
-  t: string;
   label: string;
-  h: number;
+  src: string;
 }
 
 export type Page = 'home' | 'about' | 'projects' | 'project-detail' | 'gallery' | 'contact';
