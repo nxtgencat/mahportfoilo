@@ -58,7 +58,7 @@ export const getInTouch = {
 export const aboutPage = {
   title: 'ABOUT',
   portrait: {
-    src: 'https://placehold.co/560x600/2a2d38/ffffff?text=Mahanthi',
+    src: 'https://placehold.net/10.png',
     alt: 'Mahanthi portrait',
   },
   bio: [
